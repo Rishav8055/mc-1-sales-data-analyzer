@@ -52,4 +52,9 @@ public class SalesDataAnalyzerTest {
         SalesRecord salesRecord = salesDataAnalyzer.getTopCustomerWhoSpentMaxTimeOnSite(output,new TimeOnSiteComparator());
         assertEquals(169.2,salesRecord.getTime_on_site(),0);
     }
+
+    public static void main(String[] args) {
+        SalesDataAnalyzer salesDataAnalyzer = new SalesDataAnalyzer();
+        String fileName=
+    }
 }
